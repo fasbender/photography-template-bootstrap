@@ -1,0 +1,92 @@
+.nav-link.active{
+    color: black;
+}
+.nav-link, .nav-link.active, .btn-primary, .title{
+    font-weight: bold;
+}
+.navbar-brand{
+    width: 5rem;
+}
+.btn-primary{
+    border-radius: 3px;
+}
+/* <!-- --------------------end of nav-------------------------------------     --> */
+
+
+.title-bottom{
+    color: gray;
+    font-size: 0.8rem;
+}
+.banner{
+    margin-top: 60px;
+}
+.photoshoot{
+    background: #FF6A00;
+    border-radius: 50px;
+}
+.photoshoot:hover{
+    background: #FF6A00;
+}
+/* <!-- --------------------end of banner-------------------------------------     --> */
+
+.commercial{
+    width: 23rem;
+    color: gray;
+    font-weight: 500;
+}
+.media-grid img{
+    width: 8%;
+}
+/* <!-- --------------------end of img-grid-------------------------------------     --> */
+
+hr{
+    background: gray;
+}
+
+.delivery-title{
+    font-weight: bold;
+}
+.delivery-title-2{
+    color: #FF6A00;
+}
+.delivery-h1-1{
+    background: rgb(219, 227, 241);
+}
+.delivery-h1-2{
+    color: #FF6A00;
+    background-color: #eeded2;
+}
+.delivery-h1-3{
+    background: rgb(226, 240, 226);
+}
+.delivery-h1{
+    display: inline-block;
+    width: 4.5rem;
+    border-radius: 50%;
+}
+/* <!-- --------------------end of delivery-------------------------------------     --> */
+
+
+@media screen and (min-width: 1920px) {
+    .col-lg-2{
+        width: 369px;
+        height: 369px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .media-grid img{
+        width: 10%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .title, .deliver{
+        font-size: 1.5rem;
+    }
+    .commercial{
+        width: 100%;
+    }
+    .media-grid img{
+        width: 30%;
+        margin: 5px;
+    }
+}
