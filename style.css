@@ -157,6 +157,9 @@ hr{
     .testimonial div:nth-child(2){
         width: 90%;
     }
+    .package-container{
+        padding: 1rem;
+    }
 }
 @media screen and (max-width: 600px) {
     .title, .deliver{
@@ -183,6 +186,6 @@ hr{
         width: 45%;
     }
     .package-container{
-        padding: 0;
+        padding: 1rem;
     }
 }
