@@ -80,11 +80,66 @@ hr{
     top: -6%;
     z-index: -1;
 }
-.testimonial-container, .deliver-container, .photo-container{
+.testimonial-container, .deliver-container, .photo-container, .package-container{
     margin-top: 100px;
     margin-bottom: 100px;
 }
 /* <!-- --------------------end of testimony-------------------------------------     --> */
+
+.package-container{
+    background: #FAFCFF;
+    padding: 5rem;
+}
+.package{
+    border-radius: 10px;
+    padding: 3rem 2rem;
+}
+.package-1{
+    background: #E6EFFF;
+}
+.package-2{
+    background: #FFEFE6;
+}
+.package-3{
+    background: #E5FAED;
+}
+.package-2> div:nth-child(2), .package-2> div:nth-child(3){
+    color: #FF6A00;
+}
+.package-3> div:nth-child(2), .package-3> div:nth-child(3){
+    color: #28A154;
+}
+.btn-plan{
+    width: 100%;
+    border-radius: 50px;
+    font-weight: bold;
+}
+.btn-plan-2{
+    border: 1px solid #FF6A00;
+    color: #FF6A00;
+}
+.btn-plan-3{
+    border: 1px solid #28A154;
+    color: #28A154;
+}
+.btn-plan-1:hover{
+    background-color: #0d6efd;
+    color: white !important;
+}
+.btn-plan-2:hover{
+    background-color: #FF6A00;
+    color: white !important;
+}
+.btn-plan-3:hover{
+    background-color: #28A154;
+    color: white !important;
+}
+.package-img-1{
+    right: 0;
+    top: 0;
+    mix-blend-mode: multiply;
+    border-top-right-radius: 10px;
+}
 
 @media screen and (min-width: 1920px) {
     .col-lg-2{
@@ -120,11 +175,14 @@ hr{
     .testimonial div:nth-child(2){
         width: 100%;
     }
-    .testimonial-container, .deliver-container, .photo-container{
+    .testimonial-container, .deliver-container, .photo-container, .package-container{
         margin-top: 70px;
         margin-bottom: 70px;
     }
     .img-grid img{
         width: 45%;
+    }
+    .package-container{
+        padding: 0;
     }
 }
