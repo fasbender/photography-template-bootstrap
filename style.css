@@ -80,6 +80,10 @@ hr{
     top: -6%;
     z-index: -1;
 }
+.testimonial-container, .deliver-container, .photo-container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 
 @media screen and (min-width: 1920px) {
     .col-lg-2{
@@ -114,5 +118,9 @@ hr{
     }
     .testimonial div:nth-child(2){
         width: 100%;
+    }
+    .testimonial-container, .deliver-container, .photo-container{
+        margin-top: 80px;
+        margin-bottom: 80px;
     }
 }
