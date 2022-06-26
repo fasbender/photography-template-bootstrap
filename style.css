@@ -84,6 +84,7 @@ hr{
     margin-top: 100px;
     margin-bottom: 100px;
 }
+/* <!-- --------------------end of testimony-------------------------------------     --> */
 
 @media screen and (min-width: 1920px) {
     .col-lg-2{
@@ -120,7 +121,10 @@ hr{
         width: 100%;
     }
     .testimonial-container, .deliver-container, .photo-container{
-        margin-top: 80px;
-        margin-bottom: 80px;
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+    .img-grid img{
+        width: 45%;
     }
 }
