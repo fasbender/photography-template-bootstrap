@@ -80,7 +80,7 @@ hr{
     top: -6%;
     z-index: -1;
 }
-.testimonial-container, .deliver-container, .photo-container, .package-container{
+.testimonial-container, .deliver-container, .photo-container, .package-container, .photo-shots-container{
     margin-top: 100px;
     margin-bottom: 100px;
 }
@@ -140,6 +140,45 @@ hr{
     mix-blend-mode: multiply;
     border-top-right-radius: 10px;
 }
+/* <!-- --------------------end of packages-------------------------------------     --> */
+
+.photo-shots-nav li{
+    list-style: none;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: gray;
+    cursor: pointer;
+    position: relative;
+}
+.photo-shots-nav li:hover{
+    color: #0d6efd;
+}
+.photo-shots-nav li:hover::before{
+    content: '';
+    width: 100%;
+    bottom: -10px;
+    height: 2px;
+    background-color: #0d6efd;
+    position: absolute;
+}
+.photo-shots-nav{
+    width: 30%;
+}
+.photo-shots-grid div{
+    width: 30%;
+}
+.photo-shots-img img{
+    width: 100%;
+}
+.photo-shots-grid{
+    width: 90%;
+}
+.photo-shots-button{
+    border: 1px solid #FF6A00;
+    border-radius: 50px;
+    color: #FF6A00;
+}
+/* <!-- --------------------end of photo-shots-------------------------------------     --> */
 
 @media screen and (min-width: 1920px) {
     .col-lg-2{
@@ -160,6 +199,15 @@ hr{
     .package-container{
         padding: 1rem;
     }
+    .photo-shots-nav{
+        width: 50%;
+    }
+    .photo-shots-grid{
+        width: 100%;
+    }
+    .photo-shots-grid div{
+        width: 35%;
+    }
 }
 @media screen and (max-width: 600px) {
     .title, .deliver{
@@ -178,7 +226,7 @@ hr{
     .testimonial div:nth-child(2){
         width: 100%;
     }
-    .testimonial-container, .deliver-container, .photo-container, .package-container{
+    .testimonial-container, .deliver-container, .photo-container, .package-container, .photo-shots-container{
         margin-top: 70px;
         margin-bottom: 70px;
     }
@@ -187,5 +235,14 @@ hr{
     }
     .package-container{
         padding: 1rem;
+    }
+    .photo-shots-nav{
+        width: 100%;
+    }
+    .photo-shots-grid{
+        width: 100%;
+    }
+    .photo-shots-grid div{
+        width: 40%;
     }
 }
