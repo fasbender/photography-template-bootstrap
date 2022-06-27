@@ -80,7 +80,7 @@ hr{
     top: -6%;
     z-index: -1;
 }
-.testimonial-container, .deliver-container, .photo-container, .package-container, .photo-shots-container, .shoe-container, .faq-container{
+.testimonial-container, .deliver-container, .photo-container, .package-container, .photo-shots-container, .shoe-container, .faq-container, .commercial-container{
     margin-top: 100px;
     margin-bottom: 100px;
 }
@@ -225,6 +225,18 @@ hr{
 }
 /* <!-- --------------------end of faqs-------------------------------------     --> */
 
+.commercial-img{
+    cursor: pointer;
+}
+/* <!-- --------------------end of commercial-------------------------------------     --> */
+
+.bi-envelope-fill{
+    color: #FF6A00;
+}
+.bi-geo-alt-fill{
+    color: #28A154;
+}
+
 @media screen and (min-width: 1920px) {
     .col-lg-2{
         width: 369px;
@@ -258,6 +270,9 @@ hr{
         width: 100%;
         padding: 1rem 2rem;
     }
+    .commercial-img{
+        width: 75%;
+    }
 }
 @media screen and (max-width: 600px) {
     .title, .deliver{
@@ -276,7 +291,7 @@ hr{
     .testimonial div:nth-child(2){
         width: 100%;
     }
-    .testimonial-container, .deliver-container, .photo-container, .package-container, .photo-shots-container, .shoe-container, .faq-container{
+    .testimonial-container, .deliver-container, .photo-container, .package-container, .photo-shots-container, .shoe-container, .faq-container, .commercial-container{
         margin-top: 70px;
         margin-bottom: 70px;
     }
@@ -316,5 +331,17 @@ hr{
     .faq-2{
         border-left: none;
         border-top: 1px solid rgb(219, 214, 214);
+    }
+    .commercial-img{
+        width: 90%;
+    }
+    .footer-desc-1 div{
+        margin: 15px 20px 10px 0;
+    }
+    .footer-desc-grid{
+        padding: 10px;
+    }
+    .copyright div{
+        font-size: 0.75rem;
     }
 }
