@@ -80,7 +80,7 @@ hr{
     top: -6%;
     z-index: -1;
 }
-.testimonial-container, .deliver-container, .photo-container, .package-container, .photo-shots-container, .shoe-container{
+.testimonial-container, .deliver-container, .photo-container, .package-container, .photo-shots-container, .shoe-container, .faq-container{
     margin-top: 100px;
     margin-bottom: 100px;
 }
@@ -208,6 +208,23 @@ hr{
 }
 /* <!-- --------------------end of cards-------------------------------------     --> */
 
+.faq-1{
+    border-right: 1px solid rgb(219, 214, 214);
+}
+.faq-2{
+    border-left: 1px solid rgb(219, 214, 214);
+}
+.faq-1 p, .faq-2 p{
+    font-weight: bold;
+}
+.options, .revisions{
+    color: #28A154;
+}
+.returned, .references{
+    color: #FF6A00;
+}
+/* <!-- --------------------end of faqs-------------------------------------     --> */
+
 @media screen and (min-width: 1920px) {
     .col-lg-2{
         width: 369px;
@@ -259,7 +276,7 @@ hr{
     .testimonial div:nth-child(2){
         width: 100%;
     }
-    .testimonial-container, .deliver-container, .photo-container, .package-container, .photo-shots-container, .shoe-container{
+    .testimonial-container, .deliver-container, .photo-container, .package-container, .photo-shots-container, .shoe-container, .faq-container{
         margin-top: 70px;
         margin-bottom: 70px;
     }
@@ -291,5 +308,13 @@ hr{
     }
     .card-img-1 img, .card-img-2 img{
         width: 100%;
+    }
+    .faq-1{
+        border-right: none;
+        border-bottom: 1px solid rgb(219, 214, 214);
+    }
+    .faq-2{
+        border-left: none;
+        border-top: 1px solid rgb(219, 214, 214);
     }
 }
