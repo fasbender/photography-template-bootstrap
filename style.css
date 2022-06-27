@@ -196,7 +196,7 @@ hr{
 }
 .card-1, .card-2{
     border-radius: 10px;
-    width: 80%;
+    width: 83%;
     padding: 1rem 4rem;
 }
 .card-title-2, .card-link-2 a{
@@ -204,7 +204,9 @@ hr{
 }
 .card-link-1 a, .card-link-2 a{
     text-decoration: none;
+    font-weight: bold;
 }
+/* <!-- --------------------end of cards-------------------------------------     --> */
 
 @media screen and (min-width: 1920px) {
     .col-lg-2{
